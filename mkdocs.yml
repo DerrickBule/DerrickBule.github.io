@@ -1,7 +1,6 @@
 site_name: Derrick Bule
 repo_url: https://github.com/DerrickBule/DerrickBule.github.io
-site_url: https://derrickbule.github.io/site/
-
+site_dir: site
 docs_dir: docs
 
 nav:
