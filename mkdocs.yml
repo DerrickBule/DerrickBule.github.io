@@ -3,13 +3,25 @@ repo_url: https://github.com/DerrickBule/DerrickBule.github.io
 docs_dir: docs
 
 nav:
-- index: index.md
-- Automation: Api Automation.md
-- Jmeter: Jmeter.md
-- Performance: Performance.md
+  - index: index.md
+  - Automation: Api Automation.md
+  - Jmeter:
+      - Jmeter: Jmeter.md
+      - index: index.md
+  - Performance: Performance.md
 theme:
-    name: "material"
-    palette:
-        primary: "blue"
-        accent: "deep orange"
-    language: "en"
+  name: "material"
+  features:
+    - navigation.tabs
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
