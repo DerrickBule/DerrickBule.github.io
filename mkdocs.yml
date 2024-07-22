@@ -6,9 +6,7 @@ docs_dir: docs
 nav:
   - index: index.md
   - Automation: Api Automation.md
-  - Jmeter:
-      - Jmeter: Jmeter.md
-      - index: index.md
+  - Jmeter: Jmeter.md
   - Performance: Performance.md
 theme:
   name: "material"
